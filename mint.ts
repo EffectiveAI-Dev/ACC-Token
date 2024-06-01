@@ -4,7 +4,7 @@ import { createUmi } from '@metaplex-foundation/umi-bundle-defaults';
 import { mplCandyMachine } from "@metaplex-foundation/mpl-candy-machine";
 import  "@solana/web3.js";
 import { PublicKey, Transaction, sendAndConfirmTransaction, Connection, clusterApiUrl, Keypair } from '@solana/web3.js';
-import secret from './guideSecretEffectiveAIUG.json';
+import secret from './secretEffectiveAI.json';
 
 const umi = createUmi('https://api.mainnet-beta.solana.com');
 
